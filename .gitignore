@@ -1,4 +1,5 @@
-**/obj/**
-**/bin/**
-**/packages/*
-**/Logs/EventLog.*
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+/bin/*
