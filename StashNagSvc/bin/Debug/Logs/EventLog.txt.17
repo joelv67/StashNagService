@@ -1,0 +1,597 @@
+2016-07-11 11:20:52,813 [9] INFO  [(null)] - Service Initializing...
+2016-07-11 11:20:52,846 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-11 11:20:52,849 [9] INFO  [(null)] - Service Starting up...
+2016-07-11 11:20:52,857 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-11 11:20:52,895 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-11 11:20:53,697 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/7/2016 10:20:52 AM'
+	'@endingTime': '7/11/2016 11:20:52 AM'
+	'@ignoreItem0': '%XMLQA%'
+	'@ignoreItem1': '%AD HealthMonitor%'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0 and Message not like @ignoreItem0 and Message not like @ignoreItem1
+
+2016-07-11 11:20:53,785 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	select Name, CronExpression from Quartz where Enabled = 1
+
+2016-07-11 11:21:33,136 [6] ERROR [CompassHealth Monitor] - The following 191 error messages were found for Compass HealthMonitor:
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+Ldap_GroupScan: prod.hotelscom.net: CHHXSNAGIS001:
+Failed to GetGroupDataFromLdap for AgentID '91' in Domain 'prod.hotelscom.net'. Exception thrown: System.DirectoryServices.Protocols.LdapException: The LDAP server is unavailable.
+   at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.BindHelper(NetworkCredential newCredential, Boolean needSetCredential)
+   at CompassAgentService.Modules.HealthMonitor.Monitors.LdapMonitor.MonitorGetGroupDataFromLdap(String ldapServer, Int32 portnumber, String targetgroup, String domain, String dn, String userName, String password) in d:\jenkinsslave\workspace\CompassMaster\src\CompassAgentService\Modules\HealthMonitor\Monitors\LdapMonitor.cs:line 110
+   at CompassAgentService.Modules.HealthMonitor.Monitors.LdapMonitor.ProcessMonitor(HM_AgentMonitorSpecs monitorSpec) in d:\jenkinsslave\workspace\CompassMaster\src\CompassAgentService\Modules\HealthMonitor\Monitors\LdapMonitor.cs:line 46 DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 11:01:10 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: karmalab.net: CHELSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 3:41:04 PM'. Additional Details - Domain:'CCTLAB.EXPECN.COM', Machine:'CHELSNAGIS003'. DBServer: '10.182.2.36'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: karmalab.net: CHELSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 3:41:04 PM'. Additional Details - Domain:'CCTLAB.EXPECN.COM', Machine:'CHELSNAGIS003'. DBServer: '10.182.2.36'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: karmalab.net: CHELSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 3:41:04 PM'. Additional Details - Domain:'CCTLAB.EXPECN.COM', Machine:'CHELSNAGIS003'. DBServer: '10.182.2.36'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: karmalab.net: CHELSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 3:41:04 PM'. Additional Details - Domain:'CCTLAB.EXPECN.COM', Machine:'CHELSNAGIS003'. DBServer: '10.182.2.36'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: karmalab.net: CHELSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/8/2016 3:41:04 PM'. Additional Details - Domain:'CCTLAB.EXPECN.COM', Machine:'CHELSNAGIS003'. DBServer: '10.182.2.36'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+Ldap_GroupScan: idxcorp.expedmz.com: CHCXSNAGIS001:
+Failed to GetGroupDataFromLdap for AgentID '7' in Domain 'idxcorp.expedmz.com'. Exception thrown: System.DirectoryServices.Protocols.LdapException: The LDAP server is unavailable.
+   at System.DirectoryServices.Protocols.LdapConnection.Connect()
+   at System.DirectoryServices.Protocols.LdapConnection.BindHelper(NetworkCredential newCredential, Boolean needSetCredential)
+   at CompassAgentService.Modules.HealthMonitor.Monitors.LdapMonitor.MonitorGetGroupDataFromLdap(String ldapServer, Int32 portnumber, String targetgroup, String domain, String dn, String userName, String password) in d:\jenkinsslave\workspace\CompassMaster\src\CompassAgentService\Modules\HealthMonitor\Monitors\LdapMonitor.cs:line 110
+   at CompassAgentService.Modules.HealthMonitor.Monitors.LdapMonitor.ProcessMonitor(HM_AgentMonitorSpecs monitorSpec) in d:\jenkinsslave\workspace\CompassMaster\src\CompassAgentService\Modules\HealthMonitor\Monitors\LdapMonitor.cs:line 46 DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/10/2016 5:53:21 PM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 2:34:05 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 2:52:35 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 3:33:00 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 3:33:00 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 3:33:00 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 3:33:00 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 3:33:01 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 3:33:00 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 4:09:34 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 4:33:20 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '7/11/2016 4:09:34 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'HEALTHMONITOR' as expected. LastCheckin was '7/11/2016 5:33:11 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'CMDBXML' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/11/2016 5:33:31 AM'. Additional Details - Domain:'MGT.EXPECN.COM', Machine:'PHMXSNAGIS001'. DBServer: '10.186.54.158'
+
+2016-07-11 11:22:21,661 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-11 11:22:21,663 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/15/2016 12:22:21 PM with wake span of 4.01:00:00

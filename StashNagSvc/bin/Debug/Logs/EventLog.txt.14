@@ -1,0 +1,41 @@
+2016-07-21 08:18:31,771 [9] INFO  [(null)] - Service Initializing...
+2016-07-21 08:18:31,804 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-21 08:18:31,808 [9] INFO  [(null)] - Service Starting up...
+2016-07-21 08:18:31,820 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-21 08:18:31,902 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 08:18:32,309 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 7:18:31 AM'
+	'@endingTime': '7/21/2016 8:18:31 AM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 08:18:32,376 [6] INFO  [CompassHealth Monitor] - No errors found for StartTime: 7/21/2016 7:18:31 AM - 7/21/2016 8:18:31 AM
+2016-07-21 08:18:32,378 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-21 08:18:57,741 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 9:18:57 AM with wake span of 01:00:00
+2016-07-21 09:18:57,672 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 09:18:58,204 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 8:18:57 AM'
+	'@endingTime': '7/21/2016 9:18:57 AM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 09:18:58,259 [6] INFO  [CompassHealth Monitor] - No errors found for StartTime: 7/21/2016 8:18:57 AM - 7/21/2016 9:18:57 AM
+2016-07-21 09:18:58,261 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-21 09:18:58,262 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 10:18:58 AM with wake span of 01:00:00
+2016-07-21 10:18:58,223 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 10:18:58,640 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 9:18:58 AM'
+	'@endingTime': '7/21/2016 10:18:58 AM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 10:18:58,695 [6] INFO  [CompassHealth Monitor] - No errors found for StartTime: 7/21/2016 9:18:58 AM - 7/21/2016 10:18:58 AM
+2016-07-21 10:18:58,697 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-21 10:18:58,698 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 11:18:58 AM with wake span of 01:00:00
+2016-07-21 12:26:34,192 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 12:26:34,558 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 11:26:34 AM'
+	'@endingTime': '7/21/2016 12:26:34 PM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 12:26:46,882 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	select Name, CronExpression from Quartz where Enabled = 1
+
+2016-07-21 12:26:46,930 [6] ERROR [CompassHealth Monitor] - The following 1 error messages were found for Compass HealthMonitor:
+DB_AgentConfig: expeso.com: CHEXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '7/21/2016 10:29:15 AM'. Additional Details - Domain:'CCT.EXPECN.COM', Machine:'CHEXSNAGIS007'. DBServer: '10.186.54.158'
+
+2016-07-21 12:26:48,179 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-21 12:26:48,180 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 1:26:48 PM with wake span of 01:00:00

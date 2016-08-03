@@ -1,0 +1,56 @@
+2016-07-21 16:00:29,990 [9] INFO  [(null)] - Service Initializing...
+2016-07-21 16:00:30,022 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-21 16:00:30,025 [9] INFO  [(null)] - Service Starting up...
+2016-07-21 16:00:30,035 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-21 16:00:30,060 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 16:00:30,528 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 3:00:30 PM'
+	'@endingTime': '7/21/2016 4:00:30 PM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 16:00:30,593 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	select Name, CronExpression from Quartz where Enabled = 1
+
+2016-07-22 07:06:25,044 [6] ERROR [CompassHealth Monitor] - The following 14 error messages were found for Compass HealthMonitor:
+adscan_live: sea.corp.expecn.com: BELR901ML8E:
+The live ADScan for Domain: 'SEA.CORP.EXPECN.COM' is 6 hours past it's expected NextFullScanDate: '3/14/2016 8:26:19 AM'. Additional Details -  DBServer: 'SKYNETDEVDB'
+
+adscan_live: sea.corp.expecn.com: BELR901ML8E:
+The live ADScan for Domain: 'DATAWAREHOUSE.EXPECN.COM' is 6 hours past it's expected NextFullScanDate: '3/16/2016 12:13:01 AM'. Additional Details -  DBServer: 'SKYNETDEVDB'
+
+adscan_live: sea.corp.expecn.com: BELR901ML8E:
+The live ADScan for Domain: 'EXPECNDX.COM' is 6 hours past it's expected NextFullScanDate: '3/14/2016 8:40:40 AM'. Additional Details -  DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'VM' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'ModifiedTime' not updated by 'SCRIPTTASKV2' as expected. LastCheckin was '6/14/2016 11:00:00 AM'. Additional Details - AgentDomain: 'IDXCORP.EXPEDMZ.COM, AgentMachine:'CHCXSNAGIS001', ScriptId:'10702', Script Domain:'IDXCORP.EXPEDMZ.COM', ScriptServer:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'IP' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'SCRIPTTASKV2_PREPROCESS' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'DNSAGENT' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'LOGICALBUILD' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXWBOGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'VMSCAN' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'IDXCORP.EXPEDMZ.COM', Machine:'CHCXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'ADCHANGE' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'DATAWAREHOUSE.EXPECN.COM', Machine:'CHWXSNAGIS001'. DBServer: 'SKYNETDEVDB'
+
+DB_AgentConfig: sea.corp.expecn.com: BELR901ML8E:
+'LastCheckinDate' not updated by 'LDAP' as expected. LastCheckin was '6/14/2016 11:28:00 AM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BELR901ML8E'. DBServer: 'SKYNETDEVDB'
+
+2016-07-22 07:06:25,782 [6] INFO  [CompassHealth Monitor] - Processing complete...
+2016-07-22 07:06:25,784 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/22/2016 8:06:25 AM with wake span of 01:00:00

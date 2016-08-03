@@ -1,0 +1,24 @@
+2016-07-21 15:46:30,955 [9] INFO  [(null)] - Service Initializing...
+2016-07-21 15:46:30,989 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-21 15:46:30,993 [9] INFO  [(null)] - Service Starting up...
+2016-07-21 15:46:31,004 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-21 15:46:31,105 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 15:46:42,514 [6] ERROR [CompassHealth Monitor] - System.Data.SqlClient.SqlException (0x80131904): Cannot open database "SkyNetCommand-Joel" requested by the login. The login failed.
+Login failed for user 'SEA\jvarland'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MonitorReporting.Monitors.HealthMonitor.HealthMonitor.executeMonitor(String monitorName, CancellationToken processToken) in D:\GitProjects\Smart\SmartUITests\SmartUI.Net\MonitorReporting\Monitors\HealthMonitor\HealthMonitor.cs:line 60
+ClientConnectionId:753c4914-b602-4613-acad-bd96f9e0f862
+Error Number:4060,State:1,Class:11
+2016-07-21 15:46:42,531 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 4:46:42 PM with wake span of 01:00:00

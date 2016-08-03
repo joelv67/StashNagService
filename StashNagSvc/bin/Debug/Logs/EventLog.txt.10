@@ -1,0 +1,16 @@
+2016-07-21 15:50:08,504 [9] INFO  [(null)] - Service Initializing...
+2016-07-21 15:50:08,540 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-21 15:50:08,543 [9] INFO  [(null)] - Service Starting up...
+2016-07-21 15:50:08,549 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-21 15:50:08,632 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 15:50:09,109 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 2:50:08 PM'
+	'@endingTime': '7/21/2016 3:50:08 PM'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0
+
+2016-07-21 15:50:09,165 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	select Name, CronExpression from Quartz where Enabled = 1
+
+2016-07-21 15:50:09,257 [6] ERROR [CompassHealth Monitor] - System.IndexOutOfRangeException: Cannot find table 0.
+   at System.Data.DataTableCollection.get_Item(Int32 index)
+   at MonitorReporting.Monitors.HealthMonitor.HealthMonitor.GetQuartzEntries() in D:\GitProjects\Smart\SmartUITests\SmartUI.Net\MonitorReporting\Monitors\HealthMonitor\HealthMonitor.cs:line 165
+   at MonitorReporting.Monitors.HealthMonitor.HealthMonitor.executeMonitor(String monitorName, CancellationToken processToken) in D:\GitProjects\Smart\SmartUITests\SmartUI.Net\MonitorReporting\Monitors\HealthMonitor\HealthMonitor.cs:line 76
+2016-07-21 15:50:09,261 [6] INFO  [CompassHealth Monitor] - Sleeping until 7/21/2016 4:50:09 PM with wake span of 01:00:00

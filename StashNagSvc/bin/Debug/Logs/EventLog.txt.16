@@ -1,0 +1,17 @@
+2016-07-21 08:15:12,780 [9] INFO  [(null)] - Service Initializing...
+2016-07-21 08:15:12,806 [9] INFO  [(null)] - Service Initialized. Found 1 monitors to run.
+2016-07-21 08:15:12,808 [9] INFO  [(null)] - Service Starting up...
+2016-07-21 08:15:12,815 [9] INFO  [(null)] - Service Started. running 1 monitors. List of monitors: CompassHealth Monitor
+2016-07-21 08:15:12,995 [6] INFO  [CompassHealth Monitor] - Processing started...
+2016-07-21 08:15:14,622 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	'@startingTime': '7/21/2016 7:15:12 AM'
+	'@endingTime': '7/21/2016 8:15:12 AM'
+	'@ignoreItem0': '%XMLQA%'
+	select * from HM_MonitorResults where StartTime > @startingTime and StartTime <= @endingTime and Status = 0 and Message not like @ignoreItem0
+
+2016-07-21 08:15:22,018 [6] INFO  [CompassHealth Monitor] - Sql Params and Query used:	select Name, CronExpression from Quartz where Enabled = 1
+
+2016-07-21 08:15:46,413 [6] ERROR [CompassHealth Monitor] - The following 1 error messages were found for Compass HealthMonitor:
+DB_AgentConfig: idxcorp.expedmz.com: CHCXSNAGIS001:
+'LastCheckinDate' not updated by 'ADSCAN' as expected. LastCheckin was '6/27/2016 8:06:26 PM'. Additional Details - Domain:'SEA.CORP.EXPECN.COM', Machine:'BEL0733872D13'. DBServer: '10.180.1.22'
+
+2016-07-21 08:15:47,081 [6] INFO  [CompassHealth Monitor] - Processing complete...
