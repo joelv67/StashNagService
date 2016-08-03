@@ -1,5 +1,7 @@
-[Oo]bj/
-[Bb]in
-[Dd]ebug*/
-[Rr]elease*/
-/bin/*
+**/[Oo]bj/
+**/[Bb]in
+**/[Dd]ebug*/
+**/[Rr]elease*/
+**/bin/*
+packages/
+
