@@ -37,11 +37,18 @@ namespace StashNag
                     try
                     {
                         Logger.Info($"Processing started...");
+                        DateTime today = DateTime.Now;
+                        bool isHolidayOrWeekend = Utils.IsHoliday(today) || today.DayOfWeek == DayOfWeek.Sunday || today.DayOfWeek == DayOfWeek.Saturday;
+                        if (isHolidayOrWeekend)
+                        {
+                            Logger.Info($"Today is Holiday or Weekend, Processing Complete.");
+                            continue;
+                        }
 
                         //TODO: Get the Stash data here - stash API call and json data
 
                         //TODO: If StashCheck returned PR's to alert on, send report (email and/or hipchat)
-                        
+
                         // ### Below is commented out as sample of writing data to log and email ###
 
 
